@@ -58,7 +58,6 @@ ul{
 /* container/ */
 .container{
     margin: 0% 5%;
-    background-color: rgb(48, 102, 250);
 }
 
 
@@ -67,24 +66,25 @@ ul{
     display: table;
     clear: both;
 }
-.head {
-    background-color: rgb(119, 186, 231) ;
-    height: 30px;
-}
-.menu {
-    background-color: rgb(119, 186, 231) ; 
+
+
+.lorem { 
     height: 500px;
     width: 20%;
     float: left;
     margin: 1% 0;
 }
-.main {
+
+
+.ipsum {
     background-color: rgb(119, 186, 231) ; 
     height: 500px; 
     width: 58%;
     float: left;
     margin: 1% 1%;
 }
+
+
 footer{
     background-color: rgb(90, 7, 110);
     height: 30px;

@@ -1,21 +1,50 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
 header{
-    background-color: violet;
-    height: 50px;
     width: 90%;
     margin: 0 5%;
+
 }
+
+
+/* logo */
+
+.logo{
+    height:auto;
+    width:150px;
+    border-right: 1px solid #656565;
+    padding-right: 20px;
+    
+}
+
+/* nav*/
+
+nav li{
+    display: inline;
+    text-transform: uppercase;
+    list-style: none;
+    padding-right: 10px;
+}
+
+ul{
+    padding:0;
+}
+
+/* ------------------------------------- */
 .yellow {
     background-color: rgb(199, 199, 82);
     height: 250px;
     width: 90%;
     margin: 1% 5%;
-
 }
+
+
 .container{
     margin: 0% 5%;
     background-color: rgb(48, 102, 250);
-
 }
+
 
 .container::after{
     content: "";
